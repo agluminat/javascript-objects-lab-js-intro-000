@@ -5,15 +5,6 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  // obj[key] = value
-  obj.key = value
   obj[key] = value
   return obj
-  // return obj[key] = value
-}
-
-destructivelyUpdateObjectWithKeyAndValue(recipes, 'maxi', 'ziga')
-{
-  breakfast: 'granola',
-  key: 'ziga'
 }
